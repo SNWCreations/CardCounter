@@ -1,0 +1,12 @@
+name: CardCounter
+version: '${version}'
+main: snw.cardcounter.CardCounter
+api-version: '1.20'
+
+commands:
+  cc:
+    description: "Push the flag to the pending queue"
+    permission: op
+  ccswitch:
+    description: "Let the armor stands names visible"
+    permission: op
